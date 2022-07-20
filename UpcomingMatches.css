@@ -43,7 +43,7 @@ First Section Style Starts
 .intro-pic img {
   width: 150%;
   position: relative;
-  top: 50px;
+  top: 74px;
 }
 /* ------------------------
 First Section Style Ends
@@ -87,13 +87,15 @@ Second Section Style Starts
 /* Flag Starts */
 .match-lineup {
   display: grid;
-  gap: 10px;
+  gap: 5px;
+  margin-left: 10px;
   grid-template-columns: repeat(3, 1fr);
 }
 .match {
   width: 250px;
   padding: 50px 25px 50px 25px;
   margin: 0px;
+  box-shadow: 2px 2px 5px rgb(160, 160, 160);
 }
 .flag {
   margin: 0;

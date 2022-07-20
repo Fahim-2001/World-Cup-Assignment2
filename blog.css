@@ -43,7 +43,7 @@ First Section Style Starts
 .intro-pic img {
   width: 150%;
   position: relative;
-  top: 50px;
+  top: 74px;
 }
 /* ------------------------
 First Section Style Ends
@@ -96,7 +96,8 @@ Second Section Style Starts
 }
 .blog {
   width: 300px;
-  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(160, 160, 160);
 }
 .blog-image img {
   width: 300px;
