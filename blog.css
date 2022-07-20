@@ -92,7 +92,6 @@ Second Section Style Starts
   gap: 10px;
   place-items: center;
   width: 10%;
-  margin-left: 5px;
 }
 .blog {
   width: 300px;
@@ -183,3 +182,58 @@ footer hr {
 /*----------------
    Footer Ends 
  -------------- */
+@media screen and (max-width: 680px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .intro-and-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-right: 0px;
+    padding-bottom: 69px;
+    margin: 0px;
+  }
+  .intro {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .intro-title {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .intro-pic {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 40%;
+    align-items: flex-end;
+  }
+  .sidebar-and-blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+  .sidebar {
+    background-color: #fff;
+  }
+  .all-blogs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  footer {
+    margin: 0px;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
