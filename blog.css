@@ -1,0 +1,185 @@
+body {
+  font-family: "Kanit", sans-serif;
+}
+/* main starts */
+/* ------------------------
+First Section Style Starts
+------------------------- */
+.intro-and-pic {
+  display: flex;
+  width: 80%;
+  margin: 50px 139px 130px 110px;
+  padding-right: 70px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgba(22, 22, 22, 1);
+}
+.intro {
+  margin-left: 106px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.intro-title {
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+.intro-paragraph {
+  font-size: 16px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+.watch-live-button {
+  text-decoration: none;
+  background: #dd0000;
+  border-radius: 5px;
+  padding: 16px 25px;
+  color: white;
+  font-weight: 400;
+}
+.watch-live-button i {
+  padding-left: 10px;
+}
+.intro-pic img {
+  width: 150%;
+  position: relative;
+  top: 50px;
+}
+/* ------------------------
+First Section Style Ends
+------------------------- */
+
+/* ------------------------
+Second Section Style Starts
+------------------------- */
+.sidebar-and-blogs {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 130px;
+}
+.sidebar {
+  background-color: rgba(22, 22, 22, 1);
+  padding: 30px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 8px;
+  height: 282px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+.a1,
+.a2 {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 230px;
+}
+.a3 {
+  padding: 15px;
+  background-color: red;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 230px;
+}
+/* Second Section Blog Style  */
+.all-blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5px;
+  gap: 10px;
+  place-items: center;
+  width: 10%;
+  margin-left: 5px;
+}
+.blog {
+  width: 300px;
+  padding: 5px;
+}
+.blog-image img {
+  width: 300px;
+}
+.blog-info {
+  width: 300px;
+  margin: 0px;
+}
+.transfer-button button {
+  padding: 0px;
+  width: 100px;
+  height: 32px;
+  color: rgba(22, 22, 22, 1);
+  border: 1px solid rgba(22, 22, 22, 1);
+  border-radius: 3px;
+}
+.small-paragraph p {
+  margin: 10px 0px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icons img {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+}
+.icons p {
+  margin: 0px;
+  padding-right: 20px;
+}
+/* ------------------------
+Second Section Style Ends
+------------------------- */
+/* View All Button */
+.viewall-button {
+  text-align: center;
+  display: none;
+}
+.viewall {
+  text-decoration: none;
+  color: white;
+  background-color: #dd0000;
+  border-radius: 5px;
+  padding: 12px 29px;
+  font-size: 20px;
+}
+/* main ends  */
+/*----------------
+   Footer Starts 
+ -------------- */
+footer {
+  margin: 0px;
+  padding: 100px;
+  background-color: rgba(22, 22, 22, 1);
+}
+footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+footer hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+.footer-item {
+  display: flex;
+  justify-content: space-around;
+  color: #b9b9b9;
+  padding: 25px;
+}
+.footer-social-icon {
+  text-align: center;
+}
+.footer-social-icon a {
+  text-decoration: none;
+  color: #b9b9b9;
+  padding: 0px 30px;
+}
+/*----------------
+   Footer Ends 
+ -------------- */
