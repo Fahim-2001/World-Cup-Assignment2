@@ -48,14 +48,13 @@ First Section Style Starts
 /* ------------------------
 First Section Style Ends
 ------------------------- */
-
 /* ------------------------
 Second Section Style Starts
 ------------------------- */
-.sidebar-and-blogs {
-  display: flex;
-  margin-left: 15px;
-  margin-bottom: 130px;
+.sidebar-and-flags {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 80px;
 }
 .sidebar {
   background-color: rgba(22, 22, 22, 1);
@@ -70,7 +69,7 @@ Second Section Style Starts
   text-decoration: none;
   color: black;
 }
-.a1,
+.a3,
 .a2 {
   padding: 15px;
   background-color: white;
@@ -78,78 +77,40 @@ Second Section Style Starts
   margin-bottom: 30px;
   width: 230px;
 }
-.a3 {
+.a1 {
   padding: 15px;
   background-color: red;
   border-radius: 10px;
+  margin-bottom: 30px;
   width: 230px;
 }
-/* Second Section Blog Style  */
-.all-blogs {
+/* Flag Starts */
+.match-lineup {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 5px;
   gap: 10px;
-  place-items: center;
-  width: 10%;
-  margin-left: 5px;
+  grid-template-columns: repeat(3, 1fr);
 }
-.blog {
-  width: 300px;
-  padding: 5px;
-}
-.blog-image img {
-  width: 300px;
-}
-.blog-info {
-  width: 300px;
+.match {
+  width: 250px;
+  padding: 50px 25px 50px 25px;
   margin: 0px;
 }
-.transfer-button button {
-  padding: 0px;
-  width: 100px;
-  height: 32px;
-  color: rgba(22, 22, 22, 1);
-  border: 1px solid rgba(22, 22, 22, 1);
-  border-radius: 3px;
+.flag {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-.small-paragraph p {
+.teams-time {
+  text-align: center;
+}
+.teams-time h3,
+.teams-time p {
   margin: 10px 0px;
 }
-.icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.icons img {
-  width: 24px;
-  height: 24px;
-  padding-right: 10px;
-}
-.icons p {
-  margin: 0px;
-  padding-right: 20px;
-}
-/* ------------------------
-Second Section Style Ends
-------------------------- */
-/* View All Button */
-.viewall-button {
-  text-align: center;
-  display: none;
-}
-.viewall {
-  text-decoration: none;
-  color: white;
-  background-color: #dd0000;
-  border-radius: 5px;
-  padding: 12px 29px;
-  font-size: 20px;
-}
-/* main ends  */
 /*----------------
    Footer Starts 
- -------------- */
+ -----------------*/
 footer {
   margin: 0px;
   padding: 100px;
@@ -181,4 +142,4 @@ footer hr {
 }
 /*----------------
    Footer Ends 
- -------------- */
+ -----------------*/
